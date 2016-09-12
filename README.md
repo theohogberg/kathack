@@ -1,4 +1,4 @@
-# [Katamari Hack](http://kathack.com/ "Katamari Hack")
+# [Katamari Hack](https://github.com/onlynone/kathack "Katamari Hack")
 
 ## What is this?
 

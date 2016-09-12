@@ -1,7 +1,7 @@
 /*
 Copyright Alex Leone, David Nufer, David Truong, 2011-03-11. kathack.com
 
-javascript:var i,s,ss=['http://kathack.com/js/kh.js','http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'];for(i=0;i!=ss.length;i++){s=document.createElement('script');s.src=ss[i];document.body.appendChild(s);}void(0);
+javascript:var i,s,ss=['//cdn.rawgit.com/onlynone/kathack/master/kh.js','//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'];for(i=0;i!=ss.length;i++){s=document.createElement('script');s.src=ss[i];document.body.appendChild(s);}void(0);
 
 */
 
@@ -698,7 +698,7 @@ function whenAllLoaded(gameDiv, popup, stickyNodes) {
         if (jQuery('#bgmusicc').attr('checked')) {
             bgmusic = document.createElement('audio');
             bgmusic.loop = 'loop';
-            bgmusic.src = 'http://kathack.com/js/katamari.mp3';
+            bgmusic.src = '//cdn.rawgit.com/onlynone/kathack/master/katamari.mp3';
             gameDiv.appendChild(bgmusic);
             bgmusic.play();
         }
@@ -727,7 +727,7 @@ font-size:13px;\
 text-align:left;\
 z-index:501;';
     d.innerHTML = '<h1 style="font-size:16pt">\
-<a href="http://kathack.com/" style="color:blue;text-decoration:none;">\
+<a href="https://github.com/onlynone/kathack" style="color:blue;text-decoration:none;">\
 Katamari!</a></h1>\
 <button style="position:absolute;top:0;right:0;">X</button>\
 <p>Controls: Hold down <b>right-click</b> to control the ball!</p>\
