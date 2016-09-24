@@ -698,7 +698,7 @@ function whenAllLoaded(gameDiv, popup, stickyNodes) {
         if (jQuery('#bgmusicc').attr('checked')) {
             bgmusic = document.createElement('audio');
             bgmusic.loop = 'loop';
-            bgmusic.src = '//cdn.rawgit.com/onlynone/kathack/1.0.0/katamari.mp3';
+            bgmusic.src = '//66.90.94.162/ost/katamari-damacy-soundtrack-katamari-fortissimo-damacy-/qtyviwtwzb/02-katamari-on-the-rock-main-theme.mp3';
             gameDiv.appendChild(bgmusic);
             bgmusic.play();
         }
